@@ -1,5 +1,5 @@
 
-// document.querySelector("#answer").innerHTML="";
+
 var addButton = document.querySelector("#addNumbers");
 addButton.addEventListener("click", function(add){
   add.preventDefault();

@@ -1,0 +1,10 @@
+.input {
+  display: table;
+}
+.input input{
+  width: 100px;
+  height: 50px;
+  display: table-cell;
+  box-sizing: border-box;
+  border: 1px solid #666;
+}

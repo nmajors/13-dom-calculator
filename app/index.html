@@ -9,15 +9,20 @@
   <body>
     <form>
 
-      <input type="text" id="numberOne">
-      <input type="text" id="numberTwo">
-      <button type="submit" id="addNumbers">+</button>
-      <button type="submit" id="subtractNumbers">-</button>
-      <button type="submit" id="divideNumbers">/</button>
-      <button type="submit" id="multiplyNumbers">*</button>
+      <div class="input">
+        <input type="text" id="numberOne" placeholder="First Number">
+        <input type="text" id="numberTwo" placeholder="Second Number">
+      </div>
+
+      <div class="operator">
+        <button type="submit" id="addNumbers">+</button>
+        <button type="submit" id="subtractNumbers">-</button>
+        <button type="submit" id="divideNumbers">/</button>
+        <button type="submit" id="multiplyNumbers">*</button>
+      </div>
 
     </form>
-    <div id="answer"></div>
+    <div id="answer">44</div>
 
     <script src="/js/app.js" charset="utf-8"></script>
   </body>
