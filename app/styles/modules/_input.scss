@@ -1,15 +1,14 @@
-.input {
-  display: table;
-}
-
-.input input{
+input{
   text-align: center;
   font-size: 1.75rem;
+  line-height: 1.75rem;
   color: #444;
-  width: 225px;
+  width: 113px;
   height: 75px;
   display: table-cell;
   box-sizing: border-box;
   border: 1px solid #666;
   background-color: #e6efe7;
+  display: table-cell;
+  padding: 0;
 }

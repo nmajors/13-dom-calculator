@@ -6,8 +6,22 @@ body {
   margin: 0 auto;
   display: table;
   text-align: center; }
+  .calculator--row {
+    display: table-row; }
 
 #answer {
+  box-sizing: border-box;
+  border: 1px solid #666;
+  background-color: #e6efe7;
+  width: 100px;
+  height: 75px;
+  font-size: 1.75rem;
+  color: #444;
+  padding-top: 3%;
+  display: table-cell;
+  column-span: 3; }
+
+#display {
   box-sizing: border-box;
   border: 1px solid #666;
   background-color: #e6efe7;
@@ -15,12 +29,9 @@ body {
   height: 75px;
   font-size: 1.75rem;
   color: #444;
-  padding-top: 3%; }
+  display: table-cell; }
 
-.operator {
-  display: table; }
-
-.operator button {
+button {
   background-color: #71acc2;
   color: #466875;
   width: 75px;
@@ -28,38 +39,21 @@ body {
   display: table-cell;
   box-sizing: border-box;
   font-size: 1.75rem;
-  border: 1px solid #466875;
-  column-span: 3; }
-  .operator button:hover {
-    color: white; }
+  border: 1px solid #466875; }
 
-.input {
-  display: table; }
-
-.input input {
+input {
   text-align: center;
   font-size: 1.75rem;
+  line-height: 1.75rem;
   color: #444;
-  width: 225px;
+  width: 113px;
   height: 75px;
   display: table-cell;
   box-sizing: border-box;
   border: 1px solid #666;
-  background-color: #e6efe7; }
-
-.numberKeys {
-  display: table; }
-  .numberKeys--row {
-    display: table-row; }
-  .numberKeys button {
-    background-color: #71acc2;
-    color: #466875;
-    width: 75px;
-    height: 75px;
-    display: table-cell;
-    box-sizing: border-box;
-    font-size: 1.75rem;
-    border: 1px solid #466875; }
+  background-color: #e6efe7;
+  display: table-cell;
+  padding: 0; }
 
 body {
   font-family: Helvetica;
@@ -69,8 +63,22 @@ body {
   margin: 0 auto;
   display: table;
   text-align: center; }
+  .calculator--row {
+    display: table-row; }
 
 #answer {
+  box-sizing: border-box;
+  border: 1px solid #666;
+  background-color: #e6efe7;
+  width: 100px;
+  height: 75px;
+  font-size: 1.75rem;
+  color: #444;
+  padding-top: 3%;
+  display: table-cell;
+  column-span: 3; }
+
+#display {
   box-sizing: border-box;
   border: 1px solid #666;
   background-color: #e6efe7;
@@ -78,12 +86,9 @@ body {
   height: 75px;
   font-size: 1.75rem;
   color: #444;
-  padding-top: 3%; }
+  display: table-cell; }
 
-.operator {
-  display: table; }
-
-.operator button {
+button {
   background-color: #71acc2;
   color: #466875;
   width: 75px;
@@ -91,79 +96,32 @@ body {
   display: table-cell;
   box-sizing: border-box;
   font-size: 1.75rem;
-  border: 1px solid #466875;
-  column-span: 3; }
-  .operator button:hover {
-    color: white; }
+  border: 1px solid #466875; }
 
-.input {
-  display: table; }
-
-.input input {
+input {
   text-align: center;
   font-size: 1.75rem;
+  line-height: 1.75rem;
   color: #444;
-  width: 225px;
+  width: 113px;
   height: 75px;
   display: table-cell;
   box-sizing: border-box;
   border: 1px solid #666;
-  background-color: #e6efe7; }
+  background-color: #e6efe7;
+  display: table-cell;
+  padding: 0; }
 
-.numberKeys {
-  display: table; }
-  .numberKeys--row {
-    display: table-row; }
-  .numberKeys button {
-    background-color: #71acc2;
-    color: #466875;
-    width: 75px;
-    height: 75px;
-    display: table-cell;
-    box-sizing: border-box;
-    font-size: 1.75rem;
-    border: 1px solid #466875; }
-
-.input {
-  display: table; }
-
-.input input {
+input {
   text-align: center;
   font-size: 1.75rem;
+  line-height: 1.75rem;
   color: #444;
-  width: 225px;
+  width: 113px;
   height: 75px;
   display: table-cell;
   box-sizing: border-box;
   border: 1px solid #666;
-  background-color: #e6efe7; }
-
-.numberKeys {
-  display: table; }
-  .numberKeys--row {
-    display: table-row; }
-  .numberKeys button {
-    background-color: #71acc2;
-    color: #466875;
-    width: 75px;
-    height: 75px;
-    display: table-cell;
-    box-sizing: border-box;
-    font-size: 1.75rem;
-    border: 1px solid #466875; }
-
-.operator {
-  display: table; }
-
-.operator button {
-  background-color: #71acc2;
-  color: #466875;
-  width: 75px;
-  height: 75px;
+  background-color: #e6efe7;
   display: table-cell;
-  box-sizing: border-box;
-  font-size: 1.75rem;
-  border: 1px solid #466875;
-  column-span: 3; }
-  .operator button:hover {
-    color: white; }
+  padding: 0; }

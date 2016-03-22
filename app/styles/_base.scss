@@ -7,9 +7,25 @@ body{
   margin: 0 auto;
   display: table;
   text-align: center;
+  &--row{
+    display: table-row;
+  }
 }
 
+
 #answer {
+  box-sizing: border-box;
+  border: 1px solid #666;
+  background-color: #e6efe7;
+  width: 100px;
+  height: 75px;
+  font-size: 1.75rem;
+  color: #444;
+  padding-top: 3%;
+  display: table-cell;
+  column-span: 3;
+}
+#display {
   box-sizing: border-box;
   border: 1px solid #666;
   background-color: #e6efe7;
@@ -17,5 +33,17 @@ body{
   height: 75px;
   font-size: 1.75rem;
   color: #444;
-  padding-top: 3%;
+  display: table-cell;
+
+}
+
+button {
+  background-color: #71acc2;
+  color: #466875;
+  width: 75px;
+  height: 75px;
+  display: table-cell;
+  box-sizing:border-box;
+  font-size: 1.75rem;
+  border: 1px solid #466875;
 }

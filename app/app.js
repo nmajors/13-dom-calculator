@@ -4,16 +4,24 @@
 // var numberKey = document.getElementsByClassName("numberKeys");
 //   numberKey.addEventListener("click", function(numberClickEvent)
 // )
-var handleNumberClickEvent = function(numberKeys) {
-
-  numberKeys.preventDefault();
-  var numberButtons = document.querySelectorAll(".numberButton");
-  var numberButtonArray=Array.from(numberButtons);
-    numberButtonArray.forEach(function(numberKeys){
-      console.log(numberButtonArray);
-    }
-  )
-}
+// var handleNumberClickEvent = function(numberKeys) {
+//
+//
+//   var numberButtons = document.getElementsByclassName("numberButton");
+//
+//     var result = undefined;
+//     switch (this.id) {
+//       case "1":
+//         result = 1;
+//         break;
+//     default:
+//
+//     break;
+//     }
+//   result = document.querySelector("#numberOne").innerHTML;
+//
+//
+// }
 
 
 
