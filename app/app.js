@@ -1,4 +1,22 @@
-document.ready
+// var numberButtons = document.querySelectorAll(".numberButton");
+//   var numberButtonArray=Array.from(numberButtons);
+//   console.log(numberButtonArray);
+// var numberKey = document.getElementsByClassName("numberKeys");
+//   numberKey.addEventListener("click", function(numberClickEvent)
+// )
+var handleNumberClickEvent = function(numberKeys) {
+
+  numberKeys.preventDefault();
+  var numberButtons = document.querySelectorAll(".numberButton");
+  var numberButtonArray=Array.from(numberButtons);
+    numberButtonArray.forEach(function(numberKeys)
+          console.log(numberButtonArray);
+  )
+}
+
+
+
+
 
 var operationButtons = document.getElementsByClassName("operationButton");
 var handleOperationClickEvent = function(operationButton) {
@@ -12,7 +30,6 @@ var handleOperationClickEvent = function(operationButton) {
   switch (this.id) {
     case "addNumbers":
       result = Number(numberOne) + Number(numberTwo);
-      result = result.toFixed(4);
       break;
     case "subtractNumbers":
       result = Number(numberOne) - Number(numberTwo);
@@ -28,7 +45,8 @@ var handleOperationClickEvent = function(operationButton) {
       break;
 
   }
-  document.querySelector("#answer").innerHTML = result;
+  result=
+  document.querySelector("#answer").innerHTML = +result.toFixed(4);
 };
 for (var i = 0; i < operationButtons.length; i++) {
   operationButtons[i].addEventListener('click', handleOperationClickEvent, false);

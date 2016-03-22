@@ -11,8 +11,8 @@ body {
   box-sizing: border-box;
   border: 1px solid #666;
   background-color: #e6efe7;
-  width: 200px;
-  height: 50px;
+  width: 225px;
+  height: 75px;
   font-size: 1.75rem;
   color: #444;
   padding-top: 3%; }
@@ -21,27 +21,45 @@ body {
   display: table; }
 
 .operator button {
-  background-color: #aaa;
-  color: #444;
-  width: 50px;
-  height: 50px;
+  background-color: #71acc2;
+  color: #466875;
+  width: 75px;
+  height: 75px;
   display: table-cell;
   box-sizing: border-box;
   font-size: 1.75rem;
-  border: 1px solid #666; }
+  border: 1px solid #466875;
+  column-span: 3; }
+  .operator button:hover {
+    color: white; }
 
 .input {
   display: table; }
 
 .input input {
   text-align: center;
+  font-size: 1.75rem;
   color: #444;
-  width: 100px;
-  height: 50px;
+  width: 225px;
+  height: 75px;
   display: table-cell;
   box-sizing: border-box;
   border: 1px solid #666;
   background-color: #e6efe7; }
+
+.numberKeys {
+  display: table; }
+  .numberKeys--row {
+    display: table-row; }
+  .numberKeys button {
+    background-color: #71acc2;
+    color: #466875;
+    width: 75px;
+    height: 75px;
+    display: table-cell;
+    box-sizing: border-box;
+    font-size: 1.75rem;
+    border: 1px solid #466875; }
 
 body {
   font-family: Helvetica;
@@ -56,8 +74,8 @@ body {
   box-sizing: border-box;
   border: 1px solid #666;
   background-color: #e6efe7;
-  width: 200px;
-  height: 50px;
+  width: 225px;
+  height: 75px;
   font-size: 1.75rem;
   color: #444;
   padding-top: 3%; }
@@ -66,50 +84,86 @@ body {
   display: table; }
 
 .operator button {
-  background-color: #aaa;
-  color: #444;
-  width: 50px;
-  height: 50px;
+  background-color: #71acc2;
+  color: #466875;
+  width: 75px;
+  height: 75px;
   display: table-cell;
   box-sizing: border-box;
   font-size: 1.75rem;
-  border: 1px solid #666; }
+  border: 1px solid #466875;
+  column-span: 3; }
+  .operator button:hover {
+    color: white; }
 
 .input {
   display: table; }
 
 .input input {
   text-align: center;
+  font-size: 1.75rem;
   color: #444;
-  width: 100px;
-  height: 50px;
+  width: 225px;
+  height: 75px;
   display: table-cell;
   box-sizing: border-box;
   border: 1px solid #666;
   background-color: #e6efe7; }
+
+.numberKeys {
+  display: table; }
+  .numberKeys--row {
+    display: table-row; }
+  .numberKeys button {
+    background-color: #71acc2;
+    color: #466875;
+    width: 75px;
+    height: 75px;
+    display: table-cell;
+    box-sizing: border-box;
+    font-size: 1.75rem;
+    border: 1px solid #466875; }
 
 .input {
   display: table; }
 
 .input input {
   text-align: center;
+  font-size: 1.75rem;
   color: #444;
-  width: 100px;
-  height: 50px;
+  width: 225px;
+  height: 75px;
   display: table-cell;
   box-sizing: border-box;
   border: 1px solid #666;
   background-color: #e6efe7; }
+
+.numberKeys {
+  display: table; }
+  .numberKeys--row {
+    display: table-row; }
+  .numberKeys button {
+    background-color: #71acc2;
+    color: #466875;
+    width: 75px;
+    height: 75px;
+    display: table-cell;
+    box-sizing: border-box;
+    font-size: 1.75rem;
+    border: 1px solid #466875; }
 
 .operator {
   display: table; }
 
 .operator button {
-  background-color: #aaa;
-  color: #444;
-  width: 50px;
-  height: 50px;
+  background-color: #71acc2;
+  color: #466875;
+  width: 75px;
+  height: 75px;
   display: table-cell;
   box-sizing: border-box;
   font-size: 1.75rem;
-  border: 1px solid #666; }
+  border: 1px solid #466875;
+  column-span: 3; }
+  .operator button:hover {
+    color: white; }

@@ -6,6 +6,7 @@ addButton.addEventListener("click", function(add){
     var numberOne = document.querySelector("#numberOne").value;
     var numberTwo = document.querySelector("#numberTwo").value;
     var sum = Number(numberOne) + Number(numberTwo);
+    sum = +sum.toFixed(4);
 
   document.querySelector("#answer").innerHTML=sum;
 });

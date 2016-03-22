@@ -1,0 +1,26 @@
+.numberKeys{
+  display: table;
+  &--row{
+    display: table-row;
+  }
+  & button {
+    background-color: #71acc2;
+    color: #466875;
+    width: 75px;
+    height: 75px;
+    display: table-cell;
+    box-sizing:border-box;
+    font-size: 1.75rem;
+    border: 1px solid #466875;
+  }
+}
+// .numberKeys button {
+//   background-color: #71acc2;
+//   color: #466875;
+//   width: 50px;
+//   height: 50px;
+//   display: table-cell;
+//   box-sizing:border-box;
+//   font-size: 1.75rem;
+//   border: 1px solid #466875;
+// }

@@ -7,25 +7,42 @@
   </head>
 
   <body>
-    <div class="calculator">
-      <form>
-
-        <div class="input">
-          <input type="text" id="numberOne" placeholder="First Number" autocomplete="off" >
-          <input type="text" id="numberTwo" placeholder="Second Number"autocomplete="off" >
+    <form>
+      <div class="calculator">
+        <div class="numberKeys">
+          <div class="numberKeys--row">
+            <button class="numberButton" type="submit" id="7">7</button>
+            <button class="numberButton" type="submit" id="8">8</button>
+            <button class="numberButton" type="submit" id="9">9</button>
+          </div>
+          <div class="numberKeys--row">
+            <button class="numberButton" type="submit" id="numberButton4">4</button>
+            <button class="numberButton" type="submit" id="numberButton5">5</button>
+            <button class="numberButton" type="submit" id="numberButton6">6</button>
+          </div>
+          <div class="numberKeys--row">
+            <button class="numberButton" type="submit" id="numberButton1">1</button>
+            <button class="numberButton" type="submit" id="numberButton2">2</button>
+            <button class="numberButton" type="submit" id="numberButton3">3</button>
+          </div>
         </div>
 
-        <div class="operator">
-          <button class="operationButton" type="submit" id="addNumbers">+</button>
-          <button class="operationButton"  type="submit" id="subtractNumbers">-</button>
-          <button class="operationButton"  type="submit" id="divideNumbers">/</button>
-          <button class="operationButton"  type="submit" id="multiplyNumbers">*</button>
+
+          <div class="input">
+            <input type="text" id="numberOne" placeholder="Num1" autocomplete="off">
+            <input type="text" id="numberTwo" placeholder="Num2" autocomplete="off">
+          </div>
+
+          <div class="operator">
+            <button class="operationButton" type="submit" id="addNumbers">+</button>
+            <button class="operationButton"  type="submit" id="subtractNumbers">-</button>
+            <button class="operationButton"  type="submit" id="divideNumbers">/</button>
+            <button type="submit" id="multiplyNumbers">*</button>
+          </div>
         </div>
 
       </form>
-      <div id="answer">Answer</div>
-    </div>
-
+      <div id="answer">C</div>
     <script src="/js/app.js" charset="utf-8"></script>
   </body>
 </html>
