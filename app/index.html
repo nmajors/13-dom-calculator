@@ -11,19 +11,19 @@
       <form>
 
         <div class="input">
-          <input type="text" id="numberOne" placeholder="First Number">
-          <input type="text" id="numberTwo" placeholder="Second Number">
+          <input type="text" id="numberOne" placeholder="First Number" autocomplete="off" >
+          <input type="text" id="numberTwo" placeholder="Second Number"autocomplete="off" >
         </div>
 
         <div class="operator">
-          <button type="submit" id="addNumbers">+</button>
-          <button type="submit" id="subtractNumbers">-</button>
-          <button type="submit" id="divideNumbers">/</button>
-          <button type="submit" id="multiplyNumbers">*</button>
+          <button class="operationButton" type="submit" id="addNumbers">+</button>
+          <button class="operationButton"  type="submit" id="subtractNumbers">-</button>
+          <button class="operationButton"  type="submit" id="divideNumbers">/</button>
+          <button class="operationButton"  type="submit" id="multiplyNumbers">*</button>
         </div>
 
       </form>
-      <div id="answer">44</div>
+      <div id="answer">Answer</div>
     </div>
 
     <script src="/js/app.js" charset="utf-8"></script>

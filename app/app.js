@@ -1,43 +1,35 @@
+document.ready
 
+var operationButtons = document.getElementsByClassName("operationButton");
+var handleOperationClickEvent = function(operationButton) {
 
-var addButton = document.querySelector("#addNumbers");
-addButton.addEventListener("click", function(add){
-  add.preventDefault();
-    var numberOne = document.querySelector("#numberOne").value;
-    var numberTwo = document.querySelector("#numberTwo").value;
-    var sum = Number(numberOne) + Number(numberTwo);
+  operationButton.preventDefault();
 
-  document.querySelector("#answer").innerHTML=sum;
-});
-
-var subtractButton = document.querySelector("#subtractNumbers");
-subtractButton.addEventListener("click", function(subtract){
-  subtract.preventDefault();
   var numberOne = document.querySelector("#numberOne").value;
   var numberTwo = document.querySelector("#numberTwo").value;
-  var difference = Number(numberOne) - Number(numberTwo);
 
-  document.querySelector("#answer").innerHTML=difference;
-});
+  var result = undefined;
+  switch (this.id) {
+    case "addNumbers":
+      result = Number(numberOne) + Number(numberTwo);
+      result = result.toFixed(4);
+      break;
+    case "subtractNumbers":
+      result = Number(numberOne) - Number(numberTwo);
+      break;
+    case "divideNumbers":
+      result = Number(numberOne) / Number(numberTwo);
+      break;
+    case "multiplyNumbers":
+      result = Number(numberOne) * Number(numberTwo);
+      break;
+    default:
+      //nothing to do
+      break;
 
-var divideButton = document.querySelector("#divideNumbers");
-divideButton.addEventListener("click", function(divide){
-  divide.preventDefault();
-  var numberOne = document.querySelector("#numberOne").value;
-  var numberTwo = document.querySelector("#numberTwo").value;
-  var quotient = Number(numberOne) / Number(numberTwo);
-
-  document.querySelector("#answer").innerHTML=quotient;
-
-});
-
-var multiplyButton = document.querySelector("#multiplyNumbers");
-multiplyButton.addEventListener("click", function(multiply){
-  multiply.preventDefault();
-  var numberOne = document.querySelector("#numberOne").value;
-  var numberTwo = document.querySelector("#numberTwo").value;
-  var product = Number(numberOne) * Number(numberTwo);
-
-  document.querySelector("#answer").innerHTML=product;
-
-});
+  }
+  document.querySelector("#answer").innerHTML = result;
+};
+for (var i = 0; i < operationButtons.length; i++) {
+  operationButtons[i].addEventListener('click', handleOperationClickEvent, false);
+}

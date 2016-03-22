@@ -22,6 +22,7 @@ body {
 
 .operator button {
   background-color: #aaa;
+  color: #444;
   width: 50px;
   height: 50px;
   display: table-cell;
@@ -33,6 +34,8 @@ body {
   display: table; }
 
 .input input {
+  text-align: center;
+  color: #444;
   width: 100px;
   height: 50px;
   display: table-cell;
@@ -64,6 +67,7 @@ body {
 
 .operator button {
   background-color: #aaa;
+  color: #444;
   width: 50px;
   height: 50px;
   display: table-cell;
@@ -75,6 +79,8 @@ body {
   display: table; }
 
 .input input {
+  text-align: center;
+  color: #444;
   width: 100px;
   height: 50px;
   display: table-cell;
@@ -86,6 +92,8 @@ body {
   display: table; }
 
 .input input {
+  text-align: center;
+  color: #444;
   width: 100px;
   height: 50px;
   display: table-cell;
@@ -98,6 +106,7 @@ body {
 
 .operator button {
   background-color: #aaa;
+  color: #444;
   width: 50px;
   height: 50px;
   display: table-cell;
