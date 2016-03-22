@@ -9,8 +9,9 @@ var handleNumberClickEvent = function(numberKeys) {
   numberKeys.preventDefault();
   var numberButtons = document.querySelectorAll(".numberButton");
   var numberButtonArray=Array.from(numberButtons);
-    numberButtonArray.forEach(function(numberKeys)
-          console.log(numberButtonArray);
+    numberButtonArray.forEach(function(numberKeys){
+      console.log(numberButtonArray);
+    }
   )
 }
 
