@@ -23,6 +23,56 @@
 //
 // }
 
+var numberButtons = document.getElementsByClassName("numberButton");
+var handleNumberClickEvent = function(numberButton) {
+
+  numberButton.preventDefault();
+
+  var numberButtonValue;
+  switch (this.id) {
+    case "0":
+      numberButtonValue = 0;
+      break;
+    case "1":
+      numberButtonValue = 1;
+      break;
+    case "2":
+      numberButtonValue = 2;
+      break;
+    case "3":
+      numberButtonValue = 3;
+      break;
+    case "4":
+      numberButtonValue = 4;
+      break;
+    case "5":
+      numberButtonValue = 5;
+      break;
+    case "6":
+      numberButtonValue = 6;
+      break;
+    case "7":
+      numberButtonValue = 7;
+    case "8":
+      numberButtonValue = 8;
+      break;
+    case "9":
+      numberButtonValue = 9;
+      break;
+
+    default:
+      //nothing to do
+      break;
+
+  }
+    numberButtonValue=document.querySelector(`#${this.id}`).innerHTML;
+    console.log(numberButtonValue);
+};
+for (var i = 0; i < numberButtons.length; i++) {
+  numberButtons[i].addEventListener('click', handleNumberClickEvent, false);
+  // #display
+}
+
 
 
 
@@ -54,8 +104,8 @@ var handleOperationClickEvent = function(operationButton) {
       break;
 
   }
-  result=
-  document.querySelector("#answer").innerHTML = +result.toFixed(4);
+  result =
+    document.querySelector("#answer").innerHTML = +result.toFixed(4);
 };
 for (var i = 0; i < operationButtons.length; i++) {
   operationButtons[i].addEventListener('click', handleOperationClickEvent, false);

@@ -1,4 +1,15 @@
-
+// let numberKeysArray = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+// let numberButtons = document.querySelectorAll(".numberButton");
+// numberButtons.forEach((numberButton) =>{
+//   let numberKey;
+//   let numberButtonValue;
+//   switch (numberKey) {
+//         case 0:
+//           numberButtonValue = 0;
+//           break;
+//
+//
+// });
 
 var addButton = document.querySelector("#addNumbers");
 addButton.addEventListener("click", function(add){
